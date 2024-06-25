@@ -7,24 +7,6 @@
     padding: 0;
 }
 
-h1{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 15vh;
-    font-weight: 900;
-}
-
-h2{
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    font-size: 5vh;
-}
-
-p{
-    font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-}
-
-
 button{
     padding: 5px;
     font-size: 40px;
