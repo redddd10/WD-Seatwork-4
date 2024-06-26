@@ -39,6 +39,7 @@ body {
     overflow-y: hidden;
     height: 100vh;
     width: 100%;
+    filter: blur(5px);
 }
 
 .one{
@@ -79,3 +80,67 @@ body {
     justify-content: center;
     align-items: flex-end;
 }
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle img{
+    height: 20vh;
+    width: 20vh;
+    border: solid 5px black;
+}
+
+.bottom img{
+    height: 20vh;
+    width: 20vh;
+    border: solid 5px black;
+}
+
+.middle div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three{
+    display: flex;
+}
+
+.three .left{
+    width: 30%;
+}
+
+.three .left img{
+    width: 20vh;
+    height: 20vh;
+    border: solid 5px black;
+}
+
+.three .right{
+    width: 70%;
+}
+
+.three .right img{
+    width: 20vh;
+    height: 20vh;
+    border: solid 5px black;
+}
+
