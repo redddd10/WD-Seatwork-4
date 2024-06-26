@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15vh;
+    font-weight: 900;
+}
+
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100%;
+    filter: blur(2px);
+}
+
+.one{
+    width: 100%;
+    height: 100vh;
+}
+
+.two{
+    width: 100%;
+    height: 100vh;
+}
+
+.three{
+    width: 100%;
+    height: 100vh;
+}
+
+.four{
+    width: 100%;
+    height: 100vh;
+}

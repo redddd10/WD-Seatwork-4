@@ -144,3 +144,6 @@ body {
     border: solid 5px black;
 }
 
+.fourmain{
+    display: flex;
+}
