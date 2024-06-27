@@ -62,13 +62,33 @@ body {
     height: 100vh;
 }
 
-/*hero section*/
+.header{
+    height: 10vh;
+    background-color: rgba(67, 116, 171);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.header button{
+    margin-left: 1vh;
+    font-size: 5vh;
+    font-family: "Josefin Sans", sans-serif;
+    height: 10vh;
+    border: none;
+    background-color: rgb(201, 200, 164);
+}
+
+.header img{
+    height: 10vh;
+}
 
 .one{
     display: flex;
 }
 
-button{
+.one button{
     margin-right: 10vh;
     padding: 1vh;
     font-size: 40px;
@@ -232,20 +252,58 @@ button{
     display: flex;
 }
 
+.fourmain .left{
+    margin-top: 10vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourmain .left h2{
+    height: 4vh;
+    width: 95vh;
+    background-color: rgba(67, 116, 171, 0.9);
+}
+
+.fourmain .left img{
+    margin-top: 5vh;
+    height: 60vh;
+}
+
 .fourmain .right{
-    
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .quest{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    gap: 5vh;
-    background-color: rgba(67, 116, 171, 0.7);
-    border-radius: 50px;
+    justify-content: center;
 }
 
 .quest img{
     width: 30vh;
     overflow-y: hidden;
 }
+
+
+.footer{
+    height: 15vh;
+    background-color: rgba(67, 116, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+    width: 10vh;
+}
+
