@@ -15,7 +15,7 @@ h1{
 
 h2{
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 5vh;
 }
 
@@ -39,7 +39,7 @@ body {
     overflow-y: hidden;
     height: 100vh;
     width: 100%;
-    filter: blur(5px);
+    filter: blur(3px);
 }
 
 .one{
@@ -68,10 +68,38 @@ body {
     display: flex;
 }
 
+button{
+    margin-right: 10vh;
+    padding: 1vh;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    height: 9.5vh;
+    width: 35vh;
+    text-align: center;
+    background-color: rgb(199, 194, 58);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.one h1{
+    background-color: transparent;
+    border-radius: 50px;
+    backdrop-filter: blur(100%);
+    height: 11.1vh;
+}
+
 .one .left{
     width: 80%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.one h2{
+    margin-top: 2vh;
+    margin-left: 85vh;
 }
 
 .one .right{
@@ -79,11 +107,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding: 10vh;
 }
 
 .two{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 100vh;
+    background-color: rgba(67, 116, 171);
 }
 
 .middle{
@@ -98,52 +136,116 @@ body {
 
 .middle img{
     height: 20vh;
-    width: 20vh;
-    border: solid 5px black;
+    width: 40vh;
+    overflow-y: hidden;
 }
 
 .bottom img{
     height: 20vh;
-    width: 20vh;
-    border: solid 5px black;
+    width: 40vh;
+    overflow-y: hidden;
 }
 
 .middle div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .bottom div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
+
+.regiongif{
+    height: 25vh;
+    width: 40vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+.regiongif h2{
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+
+
+
 
 .three{
     display: flex;
 }
 
 .three .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vh;
+    border-right: solid 10px white;
     width: 30%;
+    background-color: rgba(67, 116, 171, 0.5);
 }
 
 .three .left img{
-    width: 20vh;
-    height: 20vh;
-    border: solid 5px black;
+    height: 30vh;
+    width: 55vh;
+    overflow-y: hidden;
+    opacity: 90%;
 }
 
 .three .right{
     width: 70%;
+    padding: 10vh;
 }
 
-.three .right img{
-    width: 20vh;
-    height: 20vh;
-    border: solid 5px black;
+.char img{
+    margin-top: 1vh;
+    height: 80vh;
+    overflow-y: hidden;
 }
+
+.char{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three .left h2{
+    color: white;
+}
+
+.three .right h2{
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    height: 4vh;
+    width: 67vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    margin-left: 60vh;
+}
+
+
 
 .fourmain{
     display: flex;
+}
+
+.fourmain .right{
+    
+}
+
+.quest{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+.quest img{
+    width: 30vh;
+    overflow-y: hidden;
 }
