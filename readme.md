@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   
-    <img src="/assets/img/FEU_Tamaraws_official_logo.svg.png" alt="Nyebe" height="200">
+    <img src="./assets/img/FEU_Tamaraws_official_logo.svg.png" alt="FEU icon" width ="100" height="200">
   </a>
 
-  <h3 align="center">Features Website</h3>
+  <h3 align="center">Seatwork #4-Features Website</h3>
 </div>
 
 <div align="center">
