@@ -6,8 +6,12 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   
+<<<<<<< HEAD
     <img src="./assets/img/plane.png" alt="FEU icon" width ="130" height="100">
     
+=======
+    <img src="./assets/img/FEU_Tamaraws_official_logo.svg.png" alt="FEU icon" width="100" height="200">
+>>>>>>> b1d328e9a4c384f354023ef246e00d72abc3f4da
   </a>
 
   <h3 align="center">Seatwork #4-Features Website</h3>
