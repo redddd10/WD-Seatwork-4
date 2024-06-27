@@ -24,6 +24,12 @@ p{
     font-size: 20px;
 }
 
+
+li{
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -94,22 +100,150 @@ body {
     text-align: center;
 }
 
+
+
+
 .two{
     display: flex;
 }
 
 .first{
     width: 20%;
+    background-color: rgba(78, 161, 172, 0.5);
+    border-right: dashed 10px white;
+    display: flex;
+    align-items: center;
+}
+
+.first h2{
+    transform: rotate(90deg);
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    height: 55vh;
+    align-content: center;
 }
 
 .second{
+    padding: 10vh;
     width: 40%;
-}
-
-.third{
-    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
 }
 
 .second img{
-    height: 20vh;
+    height:40vh;
+}
+
+.third{
+    padding: 10vh;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.third img{
+    height:40vh;
+}
+
+.three{
+    display: flex;
+}
+
+.presentation{
+    padding: 10vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video{
+    padding: 10vh;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.video h2{
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.three img{
+    height: 50vh;
+}
+
+.functions{
+    margin-left: 10vh;
+}
+
+.four{
+    display: flex;
+}
+
+.pic{
+    width: 60%;
+}
+
+.pic img{
+    height: 100vh;
+    width:100%;
+    overflow-y: hidden;
+}
+
+.subscribe{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+.subscribe img{
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+.whypremium{
+    background-color: rgba(33, 119, 188, 0.5);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.buttons button{
+    font-size: 4vh;
+    height: 8vh;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(201, 200, 164);
+    border: dotted 5px rgba(33, 119, 188);
+    border-radius: 25px;
+}
+
+.whypremium h2{
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+}
+
+.whypremium p{
+    backdrop-filter: blur(5px);
 }
