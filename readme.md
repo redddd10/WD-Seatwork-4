@@ -5,29 +5,27 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  
+    <img src="./assets/img/FEU_Tamaraws_official_logo.svg.png" alt="Nyebe" height="200">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+  <h3 align="center">Features Website</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  This is the repository for Seatwork #4 which aims to test the student's skills in designing feature websites.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=redddd10/WD-Seatwork-4)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,28 +53,22 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- This is a seatwork in IT0043L titled Features Website
+- This aims to test the student's skills in creating multi-page, feature-focused websites.
+- This is a multipage website consisting of a landing page, and the two websites.
+- In this project HTML is used for the general content and an external CSS is used to dictate the aesthetic.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Feature-focused Website
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -114,7 +106,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Genshin Impact Wiki | Source for all Genshin Impact images | https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki |
