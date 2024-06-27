@@ -69,3 +69,11 @@ body {
     border-radius: 100px;
 }
 
+.left button:hover{
+    transform: translate(0, 10px);
+}
+
+.right:hover{
+    border: dashed 10px rgb(184, 178, 53);
+    transform: scale(1.2);
+}

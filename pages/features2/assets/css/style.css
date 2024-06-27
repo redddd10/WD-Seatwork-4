@@ -180,12 +180,45 @@ body {
     padding-top: 50px;
 }
 
-.regiongif{
+
+
+.regionone{
     height: 25vh;
     width: 40vh;
     background-color: rgba(67, 116, 171, 0.7);
     border-radius: 50px;
 }
+
+.regiontwo{
+    height: 25vh;
+    width: 40vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+.regionthree{
+    height: 25vh;
+    width: 40vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+.regionfour{
+    height: 25vh;
+    width: 40vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+.regionfive{
+    height: 25vh;
+    width: 40vh;
+    background-color: rgba(67, 116, 171, 0.7);
+    border-radius: 50px;
+}
+
+
+
 
 .regiongif h2{
     font-size: 4vh;
@@ -306,4 +339,43 @@ body {
 .footer img{
     width: 10vh;
 }
+
+.regionone:hover{
+    color: rgb(81, 204, 188);
+}
+
+.regiontwo:hover{
+    color: darkgoldenrod;
+}
+
+.regionthree:hover{
+    color: blueviolet;
+}
+
+.regionfour:hover{
+    color: forestgreen;
+}
+
+.regionfive:hover{
+    color: blue;
+}
+
+.char img:hover{
+    transform: rotateY(30deg);
+}
+
+.quest:hover{
+    transform: scale(1.2);
+    cursor: help;
+}
+
+.header button:hover{
+    background-color: white;
+    color: rgb(199, 194, 58);
+}
+
+.one button:hover{
+    cursor: grab;
+}
+
 

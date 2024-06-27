@@ -129,6 +129,11 @@ body {
     align-content: center;
 }
 
+.container:hover{
+    transform: scale(1.1);
+    rotate: 10deg;
+}
+
 .second{
     padding: 10vh;
     width: 40%;
@@ -246,4 +251,37 @@ body {
 
 .whypremium p{
     backdrop-filter: blur(5px);
+}
+
+.header button:hover{
+    background-color: white;
+    color: rgb(199, 194, 58);
+}
+
+.one h1:hover{
+    color: white;
+}
+
+.present:hover{
+    filter: contrast(150%);
+}
+
+.pic img:hover{
+    filter: grayscale(90%);
+}
+
+.buttons button:hover{
+    transform: scale3d(1.1, 1, 2);
+}
+
+.footer{
+    height: 20vh;
+    background-color: rgba(67, 116, 171);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img{
+    height: 10vh;
 }
