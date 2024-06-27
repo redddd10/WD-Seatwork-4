@@ -44,19 +44,72 @@ body {
 .one{
     width: 100%;
     height: 100vh;
+    background-color: rgba(78, 161, 172, 0.5);
 }
 
 .two{
     width: 100%;
     height: 100vh;
+    background-color: rgba(78, 161, 172, 0.5);
 }
 
 .three{
     width: 100%;
     height: 100vh;
+    background-color: rgba(78, 161, 172, 0.5);
 }
 
 .four{
     width: 100%;
     height: 100vh;
+    background-color: rgba(78, 161, 172, 0.5);
+}
+
+.header{
+    height: 10vh;
+    background-color: rgba(67, 116, 171);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.header button{
+    margin-left: 1vh;
+    font-size: 5vh;
+    font-family: "Josefin Sans", sans-serif;
+    height: 10vh;
+    border: none;
+    background-color: rgb(201, 200, 164);
+}
+
+.header img{
+    height: 10vh;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.two{
+    display: flex;
+}
+
+.first{
+    width: 20%;
+}
+
+.second{
+    width: 40%;
+}
+
+.third{
+    width: 40%;
+}
+
+.second img{
+    height: 20vh;
 }
